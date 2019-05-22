@@ -1,5 +1,5 @@
 #!/bin/bash
-. install-list/my-cnf.sh
+. my-cnf.sh
 
 # Installing NODE (Set npm)
 if [[ ! -d $NODE_DIR ]]; then

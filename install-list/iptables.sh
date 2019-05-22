@@ -1,5 +1,5 @@
 #!/bin/bash
-. install-list/my-cnf.sh
+. my-cnf.sh
 
 echo "Set up iptables"
 sudo iptables -A PREROUTING -t nat -p tcp --dport 80 -j REDIRECT --to-ports 8080
