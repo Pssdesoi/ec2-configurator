@@ -1,5 +1,5 @@
 #!/bin/bash
-. ~/my-cnf.sh
+. install-list/my-cnf.sh
 
 # Installing PM2
 if [[ ! -e $PM2_PATH ]]; then

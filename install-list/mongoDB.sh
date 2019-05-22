@@ -1,5 +1,5 @@
 #!/bin/bash
-. ~/my-cnf.sh
+. install-list/my-cnf.sh
 
 if [[ ! -d $MONGO_FILE ]]; then
     echo "Installing MongoDB"
