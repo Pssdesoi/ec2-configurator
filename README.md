@@ -4,5 +4,5 @@
 # Installation guide
 
 ```
-bash ./install.sh
+wget https://github.com/Pssdesoi/ec2-configurator/archive/v1.0.0.tar.gz && tar -xzf v1.0.0.tar.gz && cd ec2-configurator-1.0.0 && bash ./install.sh
 ```

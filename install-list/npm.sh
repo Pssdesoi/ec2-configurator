@@ -8,5 +8,5 @@ if [[ ! -d $NODE_DIR ]]; then
 	. ~/.profile
 	. ~/.bashrc
 	# Verifying the NVM Version >> Installing Node >> Default setting
-	nvm --version && nvm install $NODE_VERSION && nvm alias default $NODE_VERSION
+	nvm install $NODE_VERSION && nvm alias default $NODE_VERSION
 fi
