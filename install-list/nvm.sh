@@ -1,5 +1,5 @@
 #!/bin/bash
-. ./my-cnf.sh
+. my-cnf.sh
 
 # Installing NVM
 if [[ ! -d $NVMDIR ]]; then
