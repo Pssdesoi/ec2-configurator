@@ -8,4 +8,5 @@ if [[ ! -d $MONGO_FILE ]]; then
     sudo apt-get update
     sudo apt-get install -y mongodb-org
     sudo service mongod start
+    sudo update-rc.d mongod defaults
 fi
