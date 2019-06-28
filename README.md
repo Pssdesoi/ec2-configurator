@@ -1,3 +1,5 @@
+# !!!DEPRECATED!!! YOU SHOULD FOLLOW THE INSTRUCTIONS [HERE](https://github.com/prendssoin/documentation/blob/master/project-setup.md#launching-on-aws-ec2) TO LAUNCH AN EC2 INSTANCE.
+
 # ec2-configurator
 ### 🐚 shell script
  
